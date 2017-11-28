@@ -12,7 +12,7 @@ from __builtin__ import str
 from django.shortcuts import render, render_to_response
 import time
 from django.http.response import HttpResponseBadRequest
-from mysite import settings
+from polls.user import UserFormLogin, UserForm
 
 
 
